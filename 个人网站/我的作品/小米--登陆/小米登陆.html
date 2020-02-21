@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1293453_5tnl0oa8kk3.css">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        .top{
+            height: 68px;
+            width: 784px;
+            margin: 0 auto;
+            /* background-color: pink; */
+        }
+        .top::before{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .logo{
+            width: 35px;
+            height: 35px;
+            background-color:#F56600;
+            margin-top: 17px;
+            position: relative;
+        }
+        .slogan{
+            position: absolute;
+            top: -7px;
+            left: 51px;
+            width: 90px;
+            height: 34px;
+        }
+        .slogan p:first-child{
+            font-size: 20px;
+            color: #333;
+        }
+        .slogan p:last-child{
+            font-size: 10px;
+            color: #666;
+        }
+        /* top部分结束 */
+        .banner{
+            height: 409px;
+            width: 100%;
+            /* background-color: orange; */
+            background: orange url('images/banner.png') center;
+            background-size: cover;
+            position: relative;
+        }
+        .sign-in{
+            width: 280px;
+            height: 366px;
+            background-color: #fff;
+            position: absolute;
+            top: 22px;
+            right: 276px;
+        }
+        .sign-in ul{
+            margin: 0 auto;
+            width: 235px;
+            margin-top: 20px;
+        }
+        .sign-in ul li{
+            padding: 0 26px;
+            float: left;
+            font-size: 16px;
+            font-weight: 700;
+            color: #828282;
+        }
+        .sign-in ul li:hover{
+            color: #F56600;
+        }
+        .sign-in ul li:first-child{
+            border-right: 1px solid #dfdfdf;
+        }
+        .sign-in ul .active{
+            color: #F56600;
+        }
+        .sign-in-block{
+            width: 236px;
+            height: 188px;
+            /* background-color: pink; */
+            margin-top: 50px;
+            margin-left: 22px;
+        }
+        .sign-in-block input{
+            height: 34px;
+            width: 234px;
+            border: 1px solid #dfdfdf;
+            margin-top: 8px;
+            outline: none;
+        }
+        .sign-in-block .account-number{
+            margin-top: 26px;
+        }
+        button{
+            height: 34px;
+            width: 236px;
+            background-color:#F56600;
+            border: none;
+            color: #fff;
+            margin-top: 18px;
+        }
+        .sign-in-block p{
+            color: #828282;
+            margin-left: 44px;
+            margin-top: 10px;
+        }
+        .sign-in-block a{
+            /* margin-left: 20px; */
+            font-size: 12px;
+        }
+        .sign-in-block a:first-child{
+            padding-right: 9px;
+            border-right: 1px solid #dfdfdf;
+        }
+        .sign-in-block a:last-child{
+            padding-left: 4px;
+        }
+        .other-ways{
+            width: 235px;
+            height: 40px;
+            /* background-color: pink; */
+            margin: 0 auto;
+        }
+        fieldset{
+            margin-top: 70px;
+            border: 1px solid #999;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+            font-size: 12px;
+            color: #999;
+        }
+        .iconfont-block{
+            text-align: center;
+            margin-top: 6px;
+        }
+        .iconfont{
+            margin: 0 10px;
+            font-size: 20px;
+            color: #666;
+        }
+        .saoma{
+            /* margin-top: 50px; */
+            position: absolute;
+            top: 120px;
+            left: 90px;
+            display: none;
+        }
+        .sign-in-block .saoma .App{
+            font-size: 12px;
+            color: #828282;
+            margin-left: -18px;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+            <img src="images/mi-logo.png" alt="" width="35px" />
+            <div class="slogan">
+                <p>小米商城</p>
+                <p>享受科技的乐趣</p>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="sign-in">
+            <ul>
+                <li class="active">账号登陆</li>
+                <li>扫码登陆</li>
+            </ul>
+            <div class="sign-in-block">
+                <div class="account">
+                    <input class="account-number" type="text" name="" id="" placeholder="&nbsp;&nbsp;邮箱/手机号码/小米账号">
+                    <input type="password" name="" id="" placeholder="&nbsp;&nbsp;密码">
+                    <button>立即登录</button>
+                    <p>
+                        <a>注册小米账号</a>
+                        <a>忘记密码</a>
+                    </p>
+                </div>
+                <div class="saoma">
+                    <img src="images/erweima.png" alt="" width="100px" />
+                    <p class="App">使用&nbsp;<span>小米商城App</span>&nbsp;扫一扫</p>
+                </div>
+            </div>
+            <div class="other-ways">
+                <fieldset>
+                    <legend align="center">其他方式登陆</legend>
+                </fieldset>
+                <div class="iconfont-block">
+                    <i class="iconfont">&#xe61c;</i>
+                    <i class="iconfont">&#xe616;</i>
+                    <i class="iconfont">&#xe63a;</i>
+                    <i class="iconfont">&#xe753;</i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $("li").click(function(){
+            $(this).addClass("active").siblings().removeClass("active")
+            // console.log($(this).index())
+            $(".sign-in-block>div").eq($(this).index()).show(300).siblings().hide()
+        })
+    </script>
+</body>
+</html>

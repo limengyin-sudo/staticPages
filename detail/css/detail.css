@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.center{
+    margin: 0 auto;
+}
+.clear{
+    content: "";
+    display: table;
+    clear: both;
+}
+.detail{
+    width: 750px;
+    /* height: 1500px; */
+    /* background-color: pink; */
+}
+.status-bar{
+    height: 40px;
+    background-color: #405F80;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.nav{
+    height: 88px;
+    background-color: #405F80;
+    text-align: center;
+    line-height: 88px;
+    font-size: 35px;
+    /* font-weight: 700; */
+    color: #fff;
+    letter-spacing: 3px;
+}
+.nav-bar{
+    width: 680px;
+    line-height: 88px;
+}
+.return{
+    font-size: 36px;
+    float: left;
+}
+.more{
+    font-size: 36px;
+    float: right;
+}
+.banner{
+    height: 298px;
+    background-color: #CFBFAB;
+    position: relative;
+}
+.banner img{
+    background-size: cover;
+}
+.banner .active{
+    position: absolute;
+    right: 35px;
+    bottom: -78px;
+}
+.fantastic{
+    width: 750px;
+    height: 324px;
+    background-color: #fff;
+    border-bottom: 2px solid #D9D9D9;
+}
+.fantastic-content{
+    width: 680px;
+    height: 215px;
+    /* background-color: orange; */
+    margin-top: 46px;
+}
+.fantastic-content .name{
+    margin-bottom: 32px;
+    color: #666666;
+    font-size: 22px;
+}
+.fantastic-content .pingfen{
+    font-size: 22px;
+    color: #B6B6B6;
+}
+.fantastic-content .grade{
+    color: #1F3463;
+}
+.fantastic-content .star{
+    color: #F4CB3A;
+    padding-left: 28px;
+    padding-right: 22px;
+    font-size: 22px;
+}
+.fantastic-content p{
+    color: #727272;
+    font-size: 22px;
+    line-height: 38px;
+}
+.fantastic-content p span:first-child{
+    color: #B6B6B6;
+    padding-right: 28px;
+}
+.brief-introduction{
+    height: 338px;
+    width: 750px;
+    background-color: #fff;
+    border-bottom: 2px solid #D9D9D9;
+}
+.brief-introduction-content{
+    width: 680px;
+    height: 238px;
+    /* background-color: pink; */
+    margin-top: 50px;
+}
+.brief-introduction-content h4{
+    color: #999;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+.brief-introduction-content p{
+    font-size: 22px;
+    color: #666;
+    letter-spacing: 4px;
+    line-height: 36px;
+}
+.actor{
+    height: 234px;
+    background-color: #fff;
+}
+.actor-content{
+    width: 715px;
+    height: 186px;
+    /* background-color: pink; */
+    margin-left: 35px;
+    margin-top: 55px;
+}
+.actor-content h4{
+    color: #999;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 44px;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.parent>div{
+    width: 171px;
+    height: 113px;
+    background-color: red;
+    overflow: hidden;
+}
+.parent div:last-child{
+    width: 80px;
+    height: 113px;
+    background-color: red;
+}

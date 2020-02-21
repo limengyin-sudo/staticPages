@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.center{
+    margin: 0 auto;
+}
+.clear{
+    content: "";
+    display: table;
+    clear: both;
+}
+.movie{
+    width: 750px;
+    height: 1335px;
+}
+.status-bar{
+    height: 40px;
+    background-color: #405F80;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.nav{
+    height: 88px;
+    background-color: #405F80;
+    text-align: center;
+    line-height: 88px;
+    font-size: 35px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.nav-bar{
+    width: 680px;
+    line-height: 88px;
+}
+.return{
+    font-size: 36px;
+    float: left;
+}
+.more{
+    font-size: 36px;
+    float: right;
+}
+.banner img{
+    margin-left: -1px;
+}
+.content-row-one{
+    width: 750px;
+    height: 408px;
+    display: flex;
+    justify-content: space-around;
+}
+.content-row-one>div{
+    width: 200px;
+    height: 270px;
+    background-color: red;
+    margin-top: 40px;
+}
+.content-row-one>div h3{
+    font-size: 28px;
+    color: #6a6a6a;
+    font-weight: normal;
+    margin-top: 26px;
+}
+.content-row-one>div .star{
+    color: #ffcb3c;
+    font-size: 20px;
+    padding-right: 24px;
+}
+.content-row-one>div span{
+    color: #405F80;
+    font-size: 28px;
+}
+.content-row-two{
+    width: 750px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+.content-row-two>div{
+    width: 200px;
+    height: 270px;
+    background-color: red;
+    margin-top: 40px;
+}

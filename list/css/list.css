@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.center{
+    margin: 0 auto;
+}
+.clear{
+    content: "";
+    display: table;
+    clear: both;
+}
+.list{
+    width: 374px;
+    height: 680px;
+}
+.list-nav{
+    height: 42px;
+    background-color: #35495e;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+}
+.name{
+    height: 45px;
+    background-color: #fff;
+    line-height: 45px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    color: #666;
+}
+.lists{
+    height: 536px;
+}
+.lists>div{
+    width: 374px;
+    height: 88px;
+    border-bottom: 1px solid #ccc;
+}
+.lists-content{
+    display: flex;
+    align-items: center;
+}
+.lists-content img{
+    width: 65px;
+    height: 65px;
+    margin-left: 20px;
+}
+.lists-details{
+    height: 64px;
+    width: 260px;
+    margin-left: 10px;
+}
+.lists-details h3{
+    font-weight: normal;
+    font-size: 18px;
+}
+.lists-details h3 span{
+    color: #f74c31;
+    float: right;
+}
+.lists-details p{
+    color: #dcdcdc;
+    font-size: 14px;
+    line-height: 22px;
+}
+.lists-details p:last-child{
+    color: #a1a1a1;
+}
+.menu-bar{
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+.menu-bar div{
+    flex: 1;
+    height: 42px;
+    text-align: center;
+}
+.bangdan,
+.sousuo,
+.wode{
+    font-size: 22px;
+}
+.menu-bar div p{
+    color: #cdccce;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.menu-bar div:nth-child(2) p{
+    color: #595f71;
+}

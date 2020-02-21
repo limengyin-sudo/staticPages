@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .logo{
+            margin: 0 auto;
+            width: 640px;
+            height: 195px;
+            text-align: center;
+            /* background-color: orange; */
+            position: relative;
+        }
+        .logo img{
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .search{
+            margin: 0 auto;
+            width: 640px;
+            height: 36px;
+            background-color: pink;
+            position: relative;
+        }
+        .search input{
+            width: 538px;
+            height: 34px;
+            /* background-color: hotpink; */
+            border: 1px solid #999;
+            outline: none;
+            border-right: none;
+        }
+        button{
+            width: 101px;
+            height: 38px;
+            /* border: 1px solid #67A2FC; */
+            border: none;
+            background-color: #3386FF;
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #fff;
+            font-size: 16px;
+        }
+        .foot{
+            width: 640px;
+            height: 366px;
+            margin: 0 auto;
+            /* background-color: pink; */
+            position: relative;
+            text-align: center;
+        }
+        .erweima{
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            top: 80px;
+            left: 50%;
+            transform: translate(-50%);
+            border: 1px solid #999;
+            /* text-align: center; */
+        }
+        .erweima img{
+            margin: 6px;
+            /* margin-bottom: 6px; */
+        }
+        .foot .down{
+            position: absolute;
+            top: 200px;
+            left: 50%;
+            transform: translate(-50%);
+            color: #333;
+            font-size: 18px;
+            letter-spacing: 2px;
+            line-height: 8px;
+        }
+        .foot .down p:nth-child(2){
+            font-size: 15px;
+            letter-spacing: 0px;
+            color: #666;
+        }
+        .web{
+            width: 640px;
+            position: absolute;
+            top: 288px;
+            color: #666;
+            font-size: 10px;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        .web  span{
+            margin-left: 9px;
+            margin-right: 9px;
+            color: #666;
+        }
+        .web .one{
+            color: #666;
+        }
+        .hao{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="images/bd_logo1.png" alt="" width="272px" />
+    </div>
+    <div class="search">
+        <input type="text" name="" id="" >
+        <button>百度一下</button>
+    </div>
+    <div class="foot">
+        <div class="erweima">
+            <img src="images/zbios_09b6296.png" alt="" />
+        </div>
+        <div class="down">
+            <p>下载百度APP</p>
+            <p>有事搜一搜&nbsp;&nbsp;&nbsp;&nbsp;没事看一看</p>
+        </div>
+        <div class="web">
+            <p>
+                <span><a href="#" class="one">把百度设为主页</a></span>
+                <span><a href="#" class="one">关于百度</a></span>
+                <span><a href="#" class="one">About Baidu</a></span>
+                <span><a href="#" class="one">百度推广</a></span>
+            </p>
+            <p>
+                <span>©2019&nbsp;Baidu&nbsp;<a class="hao">使用百度前必读</a>&nbsp;<a class="hao">意见反馈</a>&nbsp;京ICP证030173号</span>
+                <span><a class="hao">京公网安备11000002000001号</span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

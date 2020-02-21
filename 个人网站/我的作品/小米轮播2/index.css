@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    margin: 0 auto;
+    width: 1226px;
+    height: 460px;
+    margin-top: 140px;
+    position: relative;
+}
+.banner img{
+    position: absolute;
+    cursor: pointer;
+}
+.banner img:nth-of-type(1){
+    z-index: 100;
+}
+.prev,
+.next{
+    width: 41px;
+    height: 69px;
+    background-color: rgba(f, f, f, .1);
+    opacity: 0.1;
+    border: none;
+    z-index: 101;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+.position-center-y{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.iconfont{
+    color: #757575;
+    font-size: 40px;
+}
+button:hover{
+    background-color: #707571;
+    opacity: 1;
+}
+button:hover .iconfont{
+    color: #fff;
+}
+.all-icons{
+    width: 92px;
+    height: 12px;
+    /* background-color: red; */
+    position: absolute;
+    right: 32px;
+    bottom: 26px;
+    z-index: 101;
+}
+.all-icons span{
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #757575;
+    border: 2px solid #999;
+    display: inline-block;
+    margin-right: 5.5px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.all-icons span:last-child{
+    margin-right: 0px;
+}
+.all-icons .active{
+    background-color: #E6EAEC;
+    border: 2px solid #757575;
+}
